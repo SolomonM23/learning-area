@@ -33,9 +33,8 @@
       const button = document.querySelector("button");
 
       function listFunction() {
-        let userInput = document.getElementById("item").value;
-
-        userInput.value = "";
+        let userInput = input.value;
+        input.value = "";
 
         const list = document.createElement("li");
         const span = document.createElement("span");
